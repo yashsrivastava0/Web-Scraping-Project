@@ -1,0 +1,50 @@
+
+def get_cookies():
+    return {
+        '_pv': 'default',
+        'dp': 'd',
+        'at': 'ZXlKaGJHY2lPaUpJVXpJMU5pSXNJbXRwWkNJNklqRWlMQ0owZVhBaU9pSktWMVFpZlEuZXlKdWFXUjRJam9pTm1VME5EVXlORE10TjJRMVlTMHhNV1ZsTFdJMVpXRXROMlU1TVRoaE1tTXpNbVUySWl3aVkybGtlQ0k2SW0xNWJuUnlZUzB3TW1RM1pHVmpOUzA0WVRBd0xUUmpOelF0T1dObU55MDVaRFl5WkdKbFlUVmxOakVpTENKaGNIQk9ZVzFsSWpvaWJYbHVkSEpoSWl3aWMzUnZjbVZKWkNJNklqSXlPVGNpTENKbGVIQWlPakUzTVRRNU1EVTNPRFFzSW1semN5STZJa2xFUlVFaWZRLmc4VmxUYjJqRUFiUlA1aXFKR2wzY3B0dW1NVmo3SHdGZmRhY1d3dGtLQTg=',
+        'lt_timeout': '1',
+        'lt_session': '1',
+        'AKA_A2': 'A',
+        'ak_bmsc': '5F1F6F061D0E9A505F2D2BD514290D79~000000000000000000000000000000~YAAQHMAzuBWYO6iLAQAAn/FgqRWbVZTeTtlBXoBun4NSw1lbl554IRJkKGKbi9xWZcDeZVD2h+vRsjGu6qgFyWDo9YONEtUpZhZ9HDJlys4vVoFKnm/eDlclpj8T1BN8rlMoTJrNYdA1is6Xxof82+HjD/Y9IrpD2hkgbKJhVwcf4fcu0GtrpJeomELY33lZGVorIe+wKpnkKCyTl2pSDH/qr245d4N0Qzn+ZKFJKxwx+LkGfPFpToIUH+uFOteJHFA8jTqEYP4B6oVuVLUJk7r5zPqO5kXfqZPZaK64xSYfOCKhHGZPJg3SOHNieqRL/LFjIHafX9cfu4D8SL1VllJs5a4Cf8sP67HSXlfSfd4XY/U4s6HzO4HJPkhfQhiBPN4hWuNRrGbGjRkaeu+wqyYlhNq4A4k/DFCfKtybDXDKPiGt',
+        'bm_sz': '50C84AE82BED3363AA419C46B1FC42BD~YAAQHMAzuBeYO6iLAQAAn/FgqRUU1oHlrSxt4AameEeky+xSvKHlWiF5kFUoOOIfqhOX6Wu/ANdrtUcXyHAb0cUX3QyAlVX7CeoQK5o//P8s9O3I3OexqXCDXMNDwMursJEMRifZ97L3nuiRbpAp9lNDxWbxup9xZqjvb/5iFUxzHKucDf8KBg3HqYyvnSx2pWgdKxrCAv3AoSXdvVErsXcFt/YPakm+TBLB712EFRYM0RZTms74deP+uvEsCRv58VOAOO9GjbtbuLeoxisfn1zh7HPp+9qJcO92egfGU9nH0PM=~3749190~3291448',
+        '_d_id': '4810297f-917f-4cb0-b681-689bd2fe9bdf',
+        '_ma_session': '%7B%22id%22%3A%22f1b1aa8f-c92a-457a-843e-d87d5095baec-4810297f-917f-4cb0-b681-689bd2fe9bdf%22%2C%22referrer_url%22%3A%22%22%2C%22utm_medium%22%3A%22%22%2C%22utm_source%22%3A%22%22%2C%22utm_channel%22%3A%22direct%22%7D',
+        'mynt-eupv': '1',
+        'microsessid': '374',
+        '_xsrf': 'gIWpWuRmGEEhVWFdshK9S0U8NFvIs0mv',
+        'mynt-ulc-api': 'pincode%3A600001',
+        'mynt-loc-src': 'expiry%3A1699355225089%7Csource%3AIP',
+        '_abck': '9761414A0F288CE147F8CE2BD65D4216~0~YAAQHMAzuE2YO6iLAQAAF/RgqQpsa6g3Kl03BJDg0fCBKe49/eUW6PUNXRPZ7SuR0ObVkBknLm/VNu6VaSejIwu0hT6wbWjllS5MHuHRaaEScUsZNrjNd8sxapFmpbcFd5xFKyzdEYPGWw5mK7wndPM5HwAC0Hs/up3cRETwhL/INzMtcMlqr3BSdNXe1B/BqSLZXubr8On+hkOfjHhvjFSbV0MkBfxe3FXjyWXXojEPGad1qq0mvBCjOZJydVFE2NL+LtZjO39oxVkJCMh3kAY9/E8P9QJl8BA7N5peNFT3C1BpZ+uWd0DDpMYJakCljticctky3kb8UgInlFfBDYwoZuwm8RULwqwQBJk6ar44gz+k705zDJC7tjolvD8LqhopqVQborjodTujnfMVXie8dJsU1s7Y~-1~||-1||~-1',
+        'bm_mi': '51894D26A3C4E3FF74895F448D9B4C3E~YAAQHMAzuPyYO6iLAQAACftgqRXgVM9YAWwUsvVSjhiXDobgmgw5HwmBA8jOWsPX8wcioTk8zOLOl5tYpnsyj8Jt4V2wEEgLKRNOhvm/U7Km7NNW0uUMW63NSqt9ZrgXhPC1VEyKdSB1yZmSKZGKF2GzXdnhDfCC4jti2KKep5El8Od7bphN7RWmvRYUgEqL3lU4uFxvfxuSZ8N5iwLNppiMvwgnxR/VwuVI2ZGDO9AhwlLBqWYZp1B5WGXBXDQoKqvJ+jGzezcMIgoOckYuiQm0ppCursogFQbAS99vVpUfMCgnVgIEH7ENgmcx/w==~1',
+        '_mxab_': 'config.bucket%3Dregular%3Bcheckout.donation%3Denabled%3Bshl.desktop%3Denabled-3%3BimpulseDriver.socialProofing%3Dpurchased%3Bcoupon.cart.channelAware%3DchannelAware_Enabled',
+        'user_session': 'FJhyTBQJj4XyWcCd6qgveg.4LZaDyNTkAflKBYyUlVBTgCBtM1cs1VSsfU1xzhlGkDj50QzjoFfFeq7aC8HDB11uGomp4GPmGIk06I9eIWYGwK7e8FMGCVhDQBzC2mrdB3YZQHIJrUD1IT1OtSQ-czl_GlyUS3xswlwF-BlYNWq-g.1699353784983.86400000.6Rl8rB274u6djw_3HE566mcrXeEAkZOeD43HzolYXU0',
+        'utm_track_v1': '%7B%22utm_source%22%3A%22direct%22%2C%22utm_medium%22%3A%22direct%22%2C%22trackstart%22%3A1699353794%2C%22trackend%22%3A1699353854%7D',
+        'utrid': 'QBIYQVB6dBF7F1l3B0ZAMCMyNjA1MDQzODckMg%3D%3D.132b41e54f4c592d7da82c0c7170d1c9',
+        'bm_sv': '6E28EB0E6DC628A48595E7AB2BFD53BD~YAAQHMAzuHqbO6iLAQAAhhhhqRXOttLTZt1UjyUmSxQUoi/nW3EOwzBRTW1F9szfNKNgyy7xisHGut59Y7qsPJW23ukCIbmLcAyJFw8SwMF6pOWumDAG+X1mVdTlsNia5aXg8/Gcxjuz6NwDDXxRWEQkkd3Tg/fHBDoY7Uw2JSmOAmOv9CbSMjgbUqoRmP3deA55XxTZiN4km5pv0qOlcGyuJPICuFzAMTk07dA91RlglWw2ud8Aem9BHgei0paXyg==~1',
+    }
+
+
+def get_headers():
+    return {
+        'authority': 'www.myntra.com',
+        'accept': 'application/json',
+        'accept-language': 'en-GB,en;q=0.9',
+        'app': 'web',
+        'content-type': 'application/json',
+        # 'cookie': '_pv=default; dp=d; at=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJbXRwWkNJNklqRWlMQ0owZVhBaU9pSktWMVFpZlEuZXlKdWFXUjRJam9pTm1VME5EVXlORE10TjJRMVlTMHhNV1ZsTFdJMVpXRXROMlU1TVRoaE1tTXpNbVUySWl3aVkybGtlQ0k2SW0xNWJuUnlZUzB3TW1RM1pHVmpOUzA0WVRBd0xUUmpOelF0T1dObU55MDVaRFl5WkdKbFlUVmxOakVpTENKaGNIQk9ZVzFsSWpvaWJYbHVkSEpoSWl3aWMzUnZjbVZKWkNJNklqSXlPVGNpTENKbGVIQWlPakUzTVRRNU1EVTNPRFFzSW1semN5STZJa2xFUlVFaWZRLmc4VmxUYjJqRUFiUlA1aXFKR2wzY3B0dW1NVmo3SHdGZmRhY1d3dGtLQTg=; lt_timeout=1; lt_session=1; AKA_A2=A; ak_bmsc=5F1F6F061D0E9A505F2D2BD514290D79~000000000000000000000000000000~YAAQHMAzuBWYO6iLAQAAn/FgqRWbVZTeTtlBXoBun4NSw1lbl554IRJkKGKbi9xWZcDeZVD2h+vRsjGu6qgFyWDo9YONEtUpZhZ9HDJlys4vVoFKnm/eDlclpj8T1BN8rlMoTJrNYdA1is6Xxof82+HjD/Y9IrpD2hkgbKJhVwcf4fcu0GtrpJeomELY33lZGVorIe+wKpnkKCyTl2pSDH/qr245d4N0Qzn+ZKFJKxwx+LkGfPFpToIUH+uFOteJHFA8jTqEYP4B6oVuVLUJk7r5zPqO5kXfqZPZaK64xSYfOCKhHGZPJg3SOHNieqRL/LFjIHafX9cfu4D8SL1VllJs5a4Cf8sP67HSXlfSfd4XY/U4s6HzO4HJPkhfQhiBPN4hWuNRrGbGjRkaeu+wqyYlhNq4A4k/DFCfKtybDXDKPiGt; bm_sz=50C84AE82BED3363AA419C46B1FC42BD~YAAQHMAzuBeYO6iLAQAAn/FgqRUU1oHlrSxt4AameEeky+xSvKHlWiF5kFUoOOIfqhOX6Wu/ANdrtUcXyHAb0cUX3QyAlVX7CeoQK5o//P8s9O3I3OexqXCDXMNDwMursJEMRifZ97L3nuiRbpAp9lNDxWbxup9xZqjvb/5iFUxzHKucDf8KBg3HqYyvnSx2pWgdKxrCAv3AoSXdvVErsXcFt/YPakm+TBLB712EFRYM0RZTms74deP+uvEsCRv58VOAOO9GjbtbuLeoxisfn1zh7HPp+9qJcO92egfGU9nH0PM=~3749190~3291448; _d_id=4810297f-917f-4cb0-b681-689bd2fe9bdf; _ma_session=%7B%22id%22%3A%22f1b1aa8f-c92a-457a-843e-d87d5095baec-4810297f-917f-4cb0-b681-689bd2fe9bdf%22%2C%22referrer_url%22%3A%22%22%2C%22utm_medium%22%3A%22%22%2C%22utm_source%22%3A%22%22%2C%22utm_channel%22%3A%22direct%22%7D; mynt-eupv=1; microsessid=374; _xsrf=gIWpWuRmGEEhVWFdshK9S0U8NFvIs0mv; mynt-ulc-api=pincode%3A600001; mynt-loc-src=expiry%3A1699355225089%7Csource%3AIP; _abck=9761414A0F288CE147F8CE2BD65D4216~0~YAAQHMAzuE2YO6iLAQAAF/RgqQpsa6g3Kl03BJDg0fCBKe49/eUW6PUNXRPZ7SuR0ObVkBknLm/VNu6VaSejIwu0hT6wbWjllS5MHuHRaaEScUsZNrjNd8sxapFmpbcFd5xFKyzdEYPGWw5mK7wndPM5HwAC0Hs/up3cRETwhL/INzMtcMlqr3BSdNXe1B/BqSLZXubr8On+hkOfjHhvjFSbV0MkBfxe3FXjyWXXojEPGad1qq0mvBCjOZJydVFE2NL+LtZjO39oxVkJCMh3kAY9/E8P9QJl8BA7N5peNFT3C1BpZ+uWd0DDpMYJakCljticctky3kb8UgInlFfBDYwoZuwm8RULwqwQBJk6ar44gz+k705zDJC7tjolvD8LqhopqVQborjodTujnfMVXie8dJsU1s7Y~-1~||-1||~-1; bm_mi=51894D26A3C4E3FF74895F448D9B4C3E~YAAQHMAzuPyYO6iLAQAACftgqRXgVM9YAWwUsvVSjhiXDobgmgw5HwmBA8jOWsPX8wcioTk8zOLOl5tYpnsyj8Jt4V2wEEgLKRNOhvm/U7Km7NNW0uUMW63NSqt9ZrgXhPC1VEyKdSB1yZmSKZGKF2GzXdnhDfCC4jti2KKep5El8Od7bphN7RWmvRYUgEqL3lU4uFxvfxuSZ8N5iwLNppiMvwgnxR/VwuVI2ZGDO9AhwlLBqWYZp1B5WGXBXDQoKqvJ+jGzezcMIgoOckYuiQm0ppCursogFQbAS99vVpUfMCgnVgIEH7ENgmcx/w==~1; _mxab_=config.bucket%3Dregular%3Bcheckout.donation%3Denabled%3Bshl.desktop%3Denabled-3%3BimpulseDriver.socialProofing%3Dpurchased%3Bcoupon.cart.channelAware%3DchannelAware_Enabled; user_session=FJhyTBQJj4XyWcCd6qgveg.4LZaDyNTkAflKBYyUlVBTgCBtM1cs1VSsfU1xzhlGkDj50QzjoFfFeq7aC8HDB11uGomp4GPmGIk06I9eIWYGwK7e8FMGCVhDQBzC2mrdB3YZQHIJrUD1IT1OtSQ-czl_GlyUS3xswlwF-BlYNWq-g.1699353784983.86400000.6Rl8rB274u6djw_3HE566mcrXeEAkZOeD43HzolYXU0; utm_track_v1=%7B%22utm_source%22%3A%22direct%22%2C%22utm_medium%22%3A%22direct%22%2C%22trackstart%22%3A1699353794%2C%22trackend%22%3A1699353854%7D; utrid=QBIYQVB6dBF7F1l3B0ZAMCMyNjA1MDQzODckMg%3D%3D.132b41e54f4c592d7da82c0c7170d1c9; bm_sv=6E28EB0E6DC628A48595E7AB2BFD53BD~YAAQHMAzuHqbO6iLAQAAhhhhqRXOttLTZt1UjyUmSxQUoi/nW3EOwzBRTW1F9szfNKNgyy7xisHGut59Y7qsPJW23ukCIbmLcAyJFw8SwMF6pOWumDAG+X1mVdTlsNia5aXg8/Gcxjuz6NwDDXxRWEQkkd3Tg/fHBDoY7Uw2JSmOAmOv9CbSMjgbUqoRmP3deA55XxTZiN4km5pv0qOlcGyuJPICuFzAMTk07dA91RlglWw2ud8Aem9BHgei0paXyg==~1',
+        'referer': 'https://www.myntra.com/comforter?f=Gender%3Amen%2Cmen%20women&rawQuery=comforter',
+        'sec-ch-ua': '"Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+        'x-location-context': 'pincode=600001;source=IP',
+        'x-meta-app': 'channel=web',
+        'x-myntra-app': 'deviceID=4810297f-917f-4cb0-b681-689bd2fe9bdf;customerID=;reqChannel=web;appFamily=MyntraRetailWeb;',
+        'x-myntraweb': 'Yes',
+        'x-requested-with': 'browser',
+    }
